@@ -11,6 +11,8 @@ Instead of just theory, each project focuses on implementing real-world examples
 
 ---
 
+## 1️⃣  Telecommunication (DeskPhone Simulation) 
+---
 ````markdown
 # 📘 Learn OOP with Projects  
 
@@ -44,4 +46,44 @@ picking the phone
 ---
 
 ✅ This project helps understand how **interfaces, encapsulation, and polymorphism** work together in Java OOP.
+
+---
+
+## 2️⃣ Banking Application
+---
+### 📌 Concepts in this Project
+
+* **Encapsulation** → All fields (`accountNumber`, `balance`, `name`, `email`, `phoneNumber`) are private, accessed through getters and setters.
+* **Abstraction** → User interacts with simple methods (`depositMoney`, `withdraw`, `displayAccountDetails`) without knowing the internal logic.
+* **Constructor** → Initializes account details in a single step.
+* **Behavior via Methods** →
+
+  * `depositMoney(double amount)` → Add funds.
+  * `withdraw(double amount)` → Withdraw if balance is sufficient.
+  * `displayAccountDetails()` → Show account summary.
+
+### ▶️ Example Output
+
+```text
+--- Account Details ---
+Account Number: 123456
+Account Holder: Srija
+Email: srijaa@gmail.com
+Phone: 1234567890
+Balance: 0.0
+-----------------------
+
+✅ Deposit successful. New balance: 1234.0
+✅ Deposit successful. New balance: 1246.0
+✅ Withdrawal successful. New balance: 11.0
+⚠️ Insufficient balance. Current balance: 11.0
+```
+
+✅ This project demonstrates **encapsulation and abstraction** in a real-world banking scenario.
+* Banking → Focused on **encapsulation & abstraction**
+---
+
+
+
+
 
