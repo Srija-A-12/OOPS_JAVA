@@ -83,7 +83,45 @@ Balance: 0.0
 * Banking → Focused on **encapsulation & abstraction**
 ---
 
+## 3️⃣ Mobile Simulation 📱
 
+### 📌 Concept:
 
+* Simulates a **Mobile Phone** with actions like **taking pictures, recording videos, playing games, and charging**.
+* Demonstrates **Encapsulation** (private fields with getters/setters) and **Abstraction** (hiding battery logic, exposing only actions).
+
+### 🔑 OOP Concepts Used:
+
+* **Encapsulation** → All attributes (`screenSize`, `companyName`, `operatingSystem`, `batteryPercent`) are private.
+* **Abstraction** → User interacts with `takePicture()`, `recordVideo()`, `playGame()`, and `charge()` without worrying about internal logic.
+* **Constructor** → Initializes mobile details.
+
+### 🧾 Example:
+
+```java
+Mobile mobile = new Mobile(15, "Apple", "iOS");
+mobile.takePicture();
+mobile.recordVideo();
+mobile.playGame();
+mobile.charge();
+```
+
+**Output:**
+
+```
+📸 Picture taken successfully.
+🎥 Video recorded successfully.
+❌ Battery too low to play games.
+⚡ Mobile fully charged (100%).
+```
+
+---
+
+This way, your **main OOP README** will now have:
+1️⃣ Telecommunication (Interfaces, Abstraction)
+2️⃣ Banking (Encapsulation, Inheritance, Polymorphism)
+3️⃣ Mobile Simulation (Encapsulation + Abstraction)
+
+---
 
 
