@@ -8,7 +8,6 @@ Instead of just theory, each project focuses on implementing real-world examples
 - Understand **OOP concepts** by building small, practical projects.  
 - Learn how to use **abstraction, encapsulation, inheritance, and polymorphism**.  
 - Get comfortable with writing **clean and extensible Java code**.  
-
 ---
 
 ## 1️⃣  Telecommunication (DeskPhone Simulation) 
