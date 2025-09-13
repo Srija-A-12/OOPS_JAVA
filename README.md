@@ -1,4 +1,3 @@
-
 This repository contains small projects designed to **learn and practice Object-Oriented Programming (OOP) concepts** in Java.  
 Instead of just theory, each project focuses on implementing real-world examples using OOP principles.  
 
